@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadsb.askjce.tab1Posts.AddPostActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtView_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:text="Last location"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="@color/white" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Pink"
+            android:layout_marginLeft="45sp"/>
+
+        <TextView
+            android:id="@+id/etxt_To"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_flag_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:text="@string/fromLocation"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="@color/white" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Pink"
+            android:layout_marginLeft="45sp"/>
+        <EditText
+            android:id="@+id/edtxt_post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_mode_comment_black_24dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColorHint="@color/white" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Pink"
+            android:layout_marginLeft="45sp"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_addPOST"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_facebook"
+            android:clickable="true"
+            android:padding="16dp"
+            android:text="@string/addPost"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ASK JCE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">profile</string>
+    <string name="fromLocation">JCE - Azrieli College of Engineering Jerusalemt</string>
+    <string name="comment">comment</string>
+    <string name="like">Like</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+    <string name="sizeText">0/120</string>
+    <string name="LogOut">LogOut</string>
+    <string name="myPost">my post</string>
+    <string name="sendComment">send</string>
+    <string name="addPost">add post</string>
+    <string name="Introduce">Introduce Yourself</string>
+    <string name="ADDBIO">ADD BIO</string>
+    <string name="username">User Name</string>
+    <string name="Message">Message</string>
+    <string name="dis">Me ......</string>
+    <string name="call">call</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">phone number</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPasswod">Confirm Passwod</string>
+    <string name="RememberMe">Remember me</string>
+    <string name="LogIn">Log in</string>
+    <string name="SignUp">Sign up</string>
+    <string name="about">about app</string>
+    <string name="aboutapp">
+        This application is used to allow jce students to help each other by allowing user to ask for a ride and other students can check who needs a ride and give them a ride
+    </string>
+
+</resources>

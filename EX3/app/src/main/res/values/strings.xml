@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EX3_ANDROID</string>
+    <string name="l1_activity">First Activity</string>
+    <string name="submit">Submit</string>
+    <string name="input_text">Input Text</string>
+    <string name="l2_activity">2 Activity</string>
+    <string name="speak">speak</string>
+</resources>

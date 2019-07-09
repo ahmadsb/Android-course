@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EX3_HOME</string>
+    <string name="BFF">my best friend</string>
+    <string name="Quote">Quote</string>
+    <string name="getQuote">Get Quote</string>
+    <string name="sendQuote">Send Quote</string>
+</resources>

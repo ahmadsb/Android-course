@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ahmadsb.askjce.tabprofile.Tab3"
+    android:id="@+id/profile_post"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                >
+
+
+            </android.support.v7.widget.Toolbar>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:background="@drawable/backgroundd"
+                android:orientation="vertical">
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_post_img"
+                    android:layout_width="150sp"
+                    android:layout_height="150sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp"
+                    app:layout_anchorGravity="center" />
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20sp">
+                <TextView
+                    android:id="@+id/profile_post_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:padding="16dp"
+                    android:hint="@string/username"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_home_black_24dp"
+                    android:layout_gravity="center_horizontal">
+
+                </ImageView>
+
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#8f8f8f"
+                android:layout_marginTop="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                >
+
+
+
+                <TextView
+                    android:id="@+id/profile_post_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="4dp"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_message_black_24dp"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:text="@string/Message"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:padding="16sp"
+                    android:textColorHint="@color/white"
+                    />
+                <TextView
+                    android:id="@+id/profile_post_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40sp"
+                    android:layout_marginTop="4dp"
+                    android:gravity="bottom"
+                    android:background="@android:color/transparent"
+                    android:drawableLeft="@drawable/ic_call_black_24dp"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:text="Call"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:padding="16sp"
+                    android:textColorHint="@color/white"
+                    />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#8f8f8f"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity=""
+                >
+
+                <TextView
+                    android:id="@+id/txtBIO_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="center
+"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:ems="10"
+                    android:maxLines="1"
+                    android:padding="16sp"
+                    android:text="@string/dis"
+                    android:textColorHint="@color/white" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="45sp"
+                    android:background="#8f8f8f">
+
+                </View>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
